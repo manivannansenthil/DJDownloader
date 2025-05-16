@@ -12,7 +12,7 @@ export default function Callback() {
     if (code) {
       // Store the code and redirect back to homepage
       localStorage.setItem("spotify_code", code);
-      router.push("/homepage");
+      router.push("/");
     }
   }, [router]);
 
